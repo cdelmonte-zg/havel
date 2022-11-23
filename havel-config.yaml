@@ -1,0 +1,26 @@
+# YAML Document starts with ---
+# Comments start with #
+
+apiVersion: v1
+sources:
+    adventureworks-for-postgres:
+        person:
+            url: /sample_data/adventureworks-for-postgres
+            datasets: 
+                - address
+                - addresstype
+                - businessentity
+                - businessentityaddress
+                - businessentitycontact
+                - contacttype
+                - contacttype
+                - countryregion
+                - emailaddress
+                - password
+                - person
+                - personphone
+                - phonenumbertype
+                - stateprovince
+                - vadditionalcontactinfo 
+                - address_2
+        
